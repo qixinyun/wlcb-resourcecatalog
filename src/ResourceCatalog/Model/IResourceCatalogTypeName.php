@@ -111,5 +111,8 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['ZZQYZYBGCMD'] => '内蒙古自治区优质样板工程名单',
         IResourceCatalog::TYPE['SLJSSC'] => '水里建设市场',
         IResourceCatalog::TYPE['TEST'] => '演示资源目录',
+IResourceCatalog::TYPE['LHCJFRHMD'] => '联合惩戒法人黑名单',
+IResourceCatalog::TYPE['LHJLFRHMD'] => '联合奖励法人红名单',
+        //@position
     );
 }

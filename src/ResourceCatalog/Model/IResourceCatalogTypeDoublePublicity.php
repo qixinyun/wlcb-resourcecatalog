@@ -111,5 +111,8 @@ interface IResourceCatalogTypeDoublePublicity
         IResourceCatalog::TYPE['ZZQYZYBGCMD'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
         IResourceCatalog::TYPE['SLJSSC'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
         IResourceCatalog::TYPE['TEST'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
+IResourceCatalog::TYPE['LHCJFRHMD'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
+IResourceCatalog::TYPE['LHJLFRHMD'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
+        //@position
     );
 }

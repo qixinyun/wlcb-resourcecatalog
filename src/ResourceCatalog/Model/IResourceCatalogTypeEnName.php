@@ -111,5 +111,8 @@ interface IResourceCatalogTypeEnName
         IResourceCatalog::TYPE['ZZQYZYBGCMD'] => 'zzqyzybgcmd',
         IResourceCatalog::TYPE['SLJSSC'] => 'sljssc',
         IResourceCatalog::TYPE['TEST'] => 'test',
+IResourceCatalog::TYPE['LHCJFRHMD'] => 'lhcjfrhmd',
+IResourceCatalog::TYPE['LHJLFRHMD'] => 'lhjlfrhmd',
+        //@position
     );
 }
