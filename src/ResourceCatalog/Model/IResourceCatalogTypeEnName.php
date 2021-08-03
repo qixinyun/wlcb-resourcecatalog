@@ -110,9 +110,10 @@ interface IResourceCatalogTypeEnName
         IResourceCatalog::TYPE['ZZQCYBGCZLJMD'] => 'zzqcybgczljmd',
         IResourceCatalog::TYPE['ZZQYZYBGCMD'] => 'zzqyzybgcmd',
         IResourceCatalog::TYPE['SLJSSC'] => 'sljssc',
+        IResourceCatalog::TYPE['LHCJFRHMD'] => 'lhcjfrhmd',
+        IResourceCatalog::TYPE['LHJLFRHMD'] => 'lhjlfrhmd',
+        IResourceCatalog::TYPE['XYSFSQ'] => 'xysfsq',
         IResourceCatalog::TYPE['TEST'] => 'test',
-IResourceCatalog::TYPE['LHCJFRHMD'] => 'lhcjfrhmd',
-IResourceCatalog::TYPE['LHJLFRHMD'] => 'lhjlfrhmd',
         //@position
     );
 }

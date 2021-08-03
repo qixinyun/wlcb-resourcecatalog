@@ -18,23 +18,23 @@ class RuleTemplate
         'isNecessary' => array(self::IS_NECESSARY['YES'], self::IS_NECESSARY['NO']),
         'rule' => array(
             array(
-                'code' => Rule::CODE['TEXT'], 
-                'name' => Rule::NAME[Rule::CODE['TEXT']], 
+                'code' => Rule::CODE['TEXT'],
+                'name' => Rule::NAME[Rule::CODE['TEXT']],
                 'options' => array()
             ),
             array(
-                'code' => Rule::CODE['DATE'], 
-                'name' => Rule::NAME[Rule::CODE['DATE']], 
+                'code' => Rule::CODE['DATE'],
+                'name' => Rule::NAME[Rule::CODE['DATE']],
                 'options' => array()
             ),
             array(
-                'code' => Rule::CODE['SINGLE_CHOOSE'], 
-                'name' => Rule::NAME[Rule::CODE['SINGLE_CHOOSE']], 
+                'code' => Rule::CODE['SINGLE_CHOOSE'],
+                'name' => Rule::NAME[Rule::CODE['SINGLE_CHOOSE']],
                 'options' => array()
             ),
             array(
-                'code' => Rule::CODE['MULTIPLE_CHOOSE'], 
-                'name' => Rule::NAME[Rule::CODE['MULTIPLE_CHOOSE']], 
+                'code' => Rule::CODE['MULTIPLE_CHOOSE'],
+                'name' => Rule::NAME[Rule::CODE['MULTIPLE_CHOOSE']],
                 'options' => array()
             )
         )

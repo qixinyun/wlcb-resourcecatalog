@@ -110,9 +110,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'ZZQCYBGCZLJMD' => 103,
         'ZZQYZYBGCMD' => 104,
         'SLJSSC' => 105,
-'LHCJFRHMD'=>106,
-'LHJLFRHMD'=>107,
-        //@position_type_108
+        'LHCJFRHMD'=>106,
+        'LHJLFRHMD'=>107,
+        'XYSFSQ'=>108,
+        //@position_type_109
         'TEST' => 500,
     );
 
