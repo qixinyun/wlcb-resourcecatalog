@@ -113,6 +113,11 @@ interface IResourceCatalogTypeEnName
         IResourceCatalog::TYPE['LHCJFRHMD'] => 'lhcjfrhmd',
         IResourceCatalog::TYPE['LHJLFRHMD'] => 'lhjlfrhmd',
         IResourceCatalog::TYPE['XYSFSQ'] => 'xysfsq',
+        IResourceCatalog::TYPE['XZCJ'] => 'xzcj',
+        IResourceCatalog::TYPE['XZJDJC'] => 'xzjdjc',
+        IResourceCatalog::TYPE['XZJL'] => 'xzjl',
+        IResourceCatalog::TYPE['XZQR'] => 'xzqr',
+        IResourceCatalog::TYPE['XZQZ'] => 'xzqz',
         IResourceCatalog::TYPE['TEST'] => 'test',
         //@position
     );

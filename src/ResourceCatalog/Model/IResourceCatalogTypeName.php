@@ -113,6 +113,11 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['LHCJFRHMD'] => '联合惩戒法人黑名单',
         IResourceCatalog::TYPE['LHJLFRHMD'] => '联合奖励法人红名单',
         IResourceCatalog::TYPE['XYSFSQ'] => '信用示范（商圈、街区）',
+        IResourceCatalog::TYPE['XZCJ'] => '行政裁决信息――国标',
+        IResourceCatalog::TYPE['XZJDJC'] => '行政监督检查信息――国标',
+        IResourceCatalog::TYPE['XZJL'] => '行政奖励信息――国标',
+        IResourceCatalog::TYPE['XZQR'] => '行政确认信息――国标',
+        IResourceCatalog::TYPE['XZQZ'] => '行政强制信息――国标',
         IResourceCatalog::TYPE['TEST'] => '演示资源目录',
         //@position
     );
