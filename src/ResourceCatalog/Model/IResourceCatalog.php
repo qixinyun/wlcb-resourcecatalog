@@ -1,9 +1,10 @@
 <?php
+
 namespace ResourceCatalog\Model;
 
 interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTypeIdentify, IResourceCatalogTypeEnName, IResourceCatalogTypeDoublePublicity, IResourceCatalogTypeRedBlackList, IResourceCatalogIsConfirm
 {
-    const TYPE = array(
+    public const TYPE = array(
         'NULL' => 0,
         'XBXZCF' => 1,
         'XBXZXK' => 2,
@@ -150,7 +151,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'TEST' => 500,
     );
 
-    const USERGROUP_TYPE_RELATIONSHIP = array(
+    public const USERGROUP_TYPE_RELATIONSHIP = array(
         IUserGroup::ID['NULL'] => array(
             self::TYPE['NULL'],
             self::TYPE['XBXZCF'],
@@ -308,6 +309,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['SGSL'] => array(),
         IUserGroup::ID['SWHTYJ'] => array(
             self::TYPE['PXSTYXHDJXX'],
+            self::TYPE['DYZGXX'],
         ),
         IUserGroup::ID['SLCJ'] => array(),
         IUserGroup::ID['SGGZYJYZX'] => array(),
@@ -329,7 +331,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         //@position_usergroup
     );
 
-    const STATUS_NORMAL = 0;
+    public const STATUS_NORMAL = 0;
 
-    const STATUS_DELETE = -2;
+    public const STATUS_DELETE = -2;
 }
