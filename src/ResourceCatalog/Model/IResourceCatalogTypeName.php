@@ -147,6 +147,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['ZLDLR'] => '专利代理人',
         IResourceCatalog::TYPE['ZLJYJCRY'] => '质量检验检测人员',
         IResourceCatalog::TYPE['ZYYS'] => '执业药师',
+        IResourceCatalog::TYPE['CXDX'] => '诚信典型',
         //@position
     );
 }

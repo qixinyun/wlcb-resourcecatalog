@@ -147,6 +147,7 @@ interface IResourceCatalogTypeIdentify
         IResourceCatalog::TYPE['ZLDLR'] => 'ZLDLR',
         IResourceCatalog::TYPE['ZLJYJCRY'] => 'ZLJYJCRY',
         IResourceCatalog::TYPE['ZYYS'] => 'ZYYS',
+        IResourceCatalog::TYPE['CXDX'] => 'CXDX',
         //@position
     );
 }
